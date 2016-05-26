@@ -11,6 +11,7 @@ openvas_apt_packages:
     - heimdal-dev
     - heimdal-multidev
     - libassuan-dev
+    - libffi-dev
     - libglib2.0-dev
     - libgmp3-dev
     - libgmp-dev
@@ -35,6 +36,7 @@ openvas_apt_packages:
     - mingw32
     - nmap
     - pkg-config
+    - python-dev
     - quilt
     - redis-server
     - sqlfairy
