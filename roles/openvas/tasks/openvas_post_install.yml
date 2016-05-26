@@ -41,11 +41,11 @@
   until: iana_download|success
 
 - name: Import/Update IANA Services Names
-  command: "openvas-portnames-update {{ openvas_iana_datafile  }}"
+  command: "openvas-portnames-update {{ openvas_iana_datafile }}"
 
 - name: Remove IANA Service data file
   file:
-    path: "{{ openvas_iana_datafile  }}"
+    path: "{{ openvas_iana_datafile }}"
     state: absent
 
 - name: Initialise the manager database
