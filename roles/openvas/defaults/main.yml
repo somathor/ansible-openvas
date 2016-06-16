@@ -66,7 +66,7 @@ openvas_src_packages:
 openvas_iana_datafile:   "/tmp/openvas_iana_datafile.xml"
 openvas_iana_datasource: "http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xml"
 
-openvas_host_address: "127.0.0.1"
+openvas_host_address: "0.0.0.0"
 
 openvas_admin_user:     "admin"
 openvas_admin_password: "admin"
