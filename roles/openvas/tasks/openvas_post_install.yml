@@ -72,9 +72,9 @@
     dest: "~/omp.config"
     mode: "0644"
 
-- name: Deploy redis.config
+- name: Deploy redis.conf
   template:
-    src: "redis.config.j2"
-    dest: "/etc/redis/redis.config"
+    src: "redis.conf.j2"
+    dest: "/etc/redis/redis.conf"
     mode: "0644"
   notify: restart redis
